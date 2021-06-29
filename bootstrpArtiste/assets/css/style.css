@@ -1,0 +1,91 @@
+body {
+    background-color: #939597;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.yellow,
+thead,
+footer,
+.navbar,
+.card,
+.contact {
+    background-color: #F5DF4D;
+}
+
+.nav-item,
+.error {
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: -.06em;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.author,
+footer {
+    color: #939597;
+}
+
+.grey {
+    background-color: #939597;
+}
+
+
+.author {
+    text-decoration: line-through darkred;
+}
+
+.author:hover {
+    text-decoration: none;
+}
+
+.arrow {
+    color: #F5DF4D;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.bio,
+table {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.bioTitle,
+h1,
+thead {
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: -.06em;
+}
+
+.bi {
+    color: #939597;
+}
+
+.bi:hover {
+    color: darkred;
+}
+
+footer {
+    height: 3rem;
+    color: #939597;
+}
+
+button.btn.btn-primary {
+    background-color: #939597;
+    color: #F5DF4D;
+    border: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.modal-header,
+.modal-content, .modal-body .bi {
+    background-color: #939597;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #F5DF4D;
+    color: #939597;
+    font-family: 'Press Start 2P', cursive;
+}
