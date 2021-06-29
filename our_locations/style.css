@@ -1,0 +1,70 @@
+.locations {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 2%;
+}
+
+.location_pic {
+	width: 300px;
+	max-height: 169px;
+	position: relative;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+div {
+	display: grid;
+}
+
+.cities {
+	position: absolute;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 16pt;
+	text-decoration: none;
+/* Oh yeah Rebecca... */
+	color: rebeccaPurple;
+/* I don't what those two are doing here:; */
+	top: 0;
+	left: 0;
+/* This ok, so the background is exactly the size of the image */
+	height: 100%;
+	width: 100%;
+	background: rgba(99, 244, 99, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+/* Hide the title by default. */
+	opacity: 0;
+/* This again, I don't know what it does. */
+	transition: opacity .5s;
+	z-index: 1;
+}
+
+.location_pic:hover .cities {
+	opacity: 1;
+}
+
+.thumbnail img {
+	filter: blur(0px);
+	transition: filter .3s ease-in;
+	transform: scale(1.1);
+}
+
+.location_pic:hover .thumbnail img {
+	filter: blur(2px);
+}
+
+/*For touch screen devices*/
+@media (hover:none) {
+	.cities {
+		opacity: 1;
+	}
+
+	.thumbnail img {
+		filter: blur(2px);
+	}
+}
