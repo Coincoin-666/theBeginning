@@ -1,0 +1,50 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #091c3e;
+}
+
+.grey {
+ color: #ababab;
+}
+
+.green {
+    color: #21cd36;
+}
+
+.red {
+    color: #ec1f21;
+}
+
+.blue {
+   color: #091c3e; 
+}
+
+.table-active {
+    background-color: #091c3e;
+}
+
+.table-active.last3 {
+    background-color: #b3b3b3;
+}
+
+.table-active.last2 {
+    background-color: #808080;
+}
+
+.table-active.last {
+    background-color: #808080;
+}
+
+.logo-l {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-sm {
+    width: 30px;
+    height: 30px;
+}
