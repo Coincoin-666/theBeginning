@@ -1,0 +1,137 @@
+#intro {
+    background-image: url('/Users/xx/Desktop/la_manu/BONUS/rnbphto/TD-effets-graphiques-etudiant/img/urban.jpg');
+    height: 100vh;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.purple {
+    color: #666eff;
+}
+
+.green {
+    color:#52e28c;
+}
+
+.yellow {
+    color: #f9ff7b;
+}
+
+.orange {
+    color: #ffbf4d;
+}
+
+.red {
+    color: #ff5050;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    background-image: linear-gradient(90deg, #666eff, #52e28c, #f9ff7b, #ffbf4d, #ff5050);
+    color: #000;
+}
+
+h2#team {
+    color: #434343;
+}
+
+section#team {
+    background-color: #000;
+    color: #fff;
+}
+
+.photographer a {
+    color: #fff;
+    border: solid .5px #434343;
+}
+
+section#team .gradient-border {
+    height: 4px;
+    margin-top: -4px;
+    background-image: linear-gradient(90deg, #666eff, #52e28c, #f9ff7b, #ffbf4d, #ff5050);
+    z-index: 12;
+}
+
+.gradient-effect {
+    background-image: linear-gradient(90deg, #666eff, #52e28c, #f9ff7b, #ffbf4d, #ff5050);
+    mix-blend-mode: color-burn;
+    filter: saturate(250%);
+    margin-top: -204px;
+    height: 200px;
+    opacity: 0;
+    transition: opacity .5s;
+    z-index: 11;
+}
+
+.photographer:hover .gradient-effect {
+    opacity: .55;
+}
+
+.photographer:hover a {
+    border: solid #fff .6px;
+}
+
+#portraits .img-wrapper {
+    background-image: url("/Users/xx/Desktop/la_manu/BONUS/rnbphto/TD-effets-graphiques-etudiant/img/portrait.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#portraits a {
+    color: #000;
+    border: solid .5px #000;
+}
+
+#portraits a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#outdoor .img-wrapper {
+    background-image: url("/Users/xx/Desktop/la_manu/BONUS/rnbphto/TD-effets-graphiques-etudiant/img/outdoor.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#outdoor .wrapper {
+    color: #fff;
+    background-color: #000;
+}    
+
+
+#outdoor a {
+    color: #fff;
+    border: solid .5px #fff;
+}
+
+#outdoor a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#contact .img-wrapper {
+    background-image: url("/Users/xx/Desktop/la_manu/BONUS/rnbphto/TD-effets-graphiques-etudiant/img/contact.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#contact .button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+footer {
+    background-image: linear-gradient(90deg, #666eff, #52e28c, #f9ff7b, #ffbf4d, #ff5050);   
+}
