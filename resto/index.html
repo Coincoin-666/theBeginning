@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a84f0a28f.js" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>L'Alimentari</title>
+</head>
+
+<body>
+    <div class="main">
+        <ul class="navbar">
+            <li><a href="#homepage">ACCUEIL</a></li>
+
+        <script>
+          $('a[href^="#homepage"]').click(function(){
+          var the_id = $(this).attr("href");
+          if (the_id === '#') {
+          return;
+          }
+          $('html, body').animate({
+          scrollTop:$(the_id).offset().top
+          }, 'slow');
+          return false;
+          });
+        </script>
+
+            <li><a href="#presentation">PRESENTATION</a></li>
+
+        <script>
+          $('a[href^="#presentation"]').click(function(){
+          var the_id = $(this).attr("href");
+          if (the_id === '#') {
+          return;
+          }
+          $('html, body').animate({
+          scrollTop:$(the_id).offset().top
+          }, 'slow');
+          return false;
+          });
+        </script>
+
+            <li><a href="#menu">LA CARTE</a></li>
+
+        <script>
+          $('a[href^="#menu"]').click(function(){
+          var the_id = $(this).attr("href");
+          if (the_id === '#') {
+          return;
+          }
+          $('html, body').animate({
+          scrollTop:$(the_id).offset().top
+          }, 'slow');
+          return false;
+          });
+        </script>
+
+            <li><a href="#contact">CONTACT</a></li>
+
+        <script>
+          $('a[href^="#contact"]').click(function(){
+          var the_id = $(this).attr("href");
+          if (the_id === '#') {
+          return;
+          }
+          $('html, body').animate({
+          scrollTop:$(the_id).offset().top
+          }, 'slow');
+          return false;
+          });
+        </script>
+
+            <li><a href="#coordonnees">NOUS TROUVER</a></li>
+
+        <script>
+          $('a[href^="#coordonnees"]').click(function(){
+          var the_id = $(this).attr("href");
+          if (the_id === '#') {
+          return;
+          }
+          $('html, body').animate({
+          scrollTop:$(the_id).offset().top
+          }, 'slow');
+          return false;
+          });
+        </script>
+        
+        </ul>
+
+        <div id="homepage" class="homepage">
+            <div class="textelogo">
+                <h1>L'ALIMENTARI</h1>
+                <p>Restaurant italien</p>
+            </div>
+        </div>
+
+
+        <h2 id="presentation">Faites un détour par l'Italie !</h2>
+
+        <div class="presentation">
+            <div class="photos-presentation"><img src="assets/img/l-alimentari.jpg" alt="façade restaurant">
+            </div>
+            <div class="colonne">
+                <div class="photos-colonne"><img src="assets/img/pastasauce.jpg" alt="pates et sauces">
+                </div>
+                <div class="photos-colonne2"><img src="assets/img/table.jpg" alt="table">
+                </div>
+            </div>
+        </div>
+
+        <div class="texte-de-presentation">
+            <p>Petite trattoria égarée dans le quartier des falafels, notre jolie façade en bois et notre vitrine vous
+                acceillent en vous donnant<br> un avant-goût du meilleur de la Sardaigne.
+                Une ardoise du jour pour garantir une qualité supérieure des produits <br>et des repas 100% fait maison
+                :
+                mozarella de bufala panée, gnocchis au pesto, côte de veau aux herbes et vin blanc...<br> il y en a pour
+                tous les goûts.
+                Et pour les plus affamés, n'oubliez pas le filoncino ou le tiramisu pour clôturer votre repas !
+            </p>
+        </div>
+
+        <div id="menu" class="menu">
+            <div class="titremenu">
+                <h3>Menu</h3>
+                <hr>
+                <div class="menugrid">
+                    <div class="antipasti">
+                        <h4 class="categorie">ANTIPASTI</h4>
+                        <p>Carpaccio di anguilla (carpaccio d'anguille)<br>
+                            Carpaccio di polpo (carpaccio de poulpe)<br>
+                            Carpaccio di manzo (boeuf mariné au Chianti)<br>
+                            Verdure / Bufala (légumes grillés / Mozzarella)<br>
+                            Burrata o Bufala (mozzarella)<br>
+                            Affetati misti (charcuterie Toscane assortiment)<br>
+                            San Daniele a Bufala<br>
+                            Bruschetta o special (ou aux anchois)<br>
+                            Rucola & parmiggiano (roquette et parmesan)<br>
+                            Bomarga & Sedano (boutargue et céleri)<br>
+                            Provola e zucchini (fromage fondant et courgettes)<br>
+                        </p>
+                    </div>
+
+                    <div class="prixantipasti">
+                        <p>16€<br>
+                            16€<br>
+                            15€<br>
+                            11,5/13,5€<br>
+                            12€<br>
+                            13€<br>
+                            14€<br>
+                            10/12€<br>
+                            9€<br>
+                            14€<br>
+                            12€<br>
+
+                    </div>
+
+                    <div class="pasta">
+                        <h4 class="categorie">LA PASTA / LES PÂTES</h4>
+                        <p>Lasagna special<br>
+                            Spaghetti & bottarga<br>
+                            Caccio & pepe (pecorino & poivre noir)<br>
+                            Pennolo del Vesuvio (tomates du Vésuve, ail, huile d'olive)<br>
+                            Malloreddus (saucisse coupée au couteau, piment, tomates)<br>
+                            Pappardelle Carciofi & Reggiano<br>
+                            Linguine Diavola (gambas, tomate, piment)<br>
+                            Spaghetti Vongole (palourdes, ail, huile d'olive)<br>
+                            Tagliatelle Gamberi & Zucchini (gambas & courgettes)<br>
+                        </p>
+                    </div>
+
+                    <div class="prixpasta">
+                        <p>22€<br>
+                            22€<br>
+                            16€<br>
+                            18€<br>
+                            18€<br>
+                            17€<br>
+                            19€<br>
+                            18€<br>
+                            23€<br>
+
+                    </div>
+
+                    <div class="carne">
+                        <h4 class="categorie">CARNE / VIANDE</h4>
+                        <p>Pane Frattau<br>
+                            Saltimbocca alla Romana<br>
+                        </p>
+                    </div>
+
+                    <div class="prixviande">
+                        <p>24€<br>
+                            23€<br>
+                        </p>
+                    </div>
+
+                    <div class="pesce">
+                        <h4 class="categorie">PESCE / POISSONS</h4>
+                        <p>Pesce del giorno<br>
+                            Fritto Misto<br>
+                            Calamari Fritti
+                        </p>
+                    </div>
+
+                    <div class="prixpesce">
+                        <p>24€<br>
+                            28€<br>
+                            24€<br>
+                        </p>
+                    </div>
+
+                    <div class="dolce">
+                        <h4 class="categorie">DOLCE / DESSERTS</h4>
+                        <p>Tiramisu<br></p>
+                    </div>
+
+                    <div class="prixdolce">
+                        <p>6€<br>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <section class="contact">
+            <article class="form">
+                <h2 id="contact">Contactez-nous!</h2>
+                <hr>
+                <form action="/blablabla.php" method="get">
+                    <p><label for="name">Votre Nom:</label>
+                        <input type="text" id="name" name="name" placeholder="Nom" required></p>
+                    <p><label for="mail">Adresse Mail:</label>
+                        <input type="email" id="mail" name="mail" placeholder="email" required></p>
+                    <p><label for="options">Je veux:</label>
+                        <select id="options" name="options">
+                            <option value="reserver">Réserver une table</option>
+                            <option value="devis">Un devis pour un évènement</option>
+                            <option value="privatisation">Privatiser le restaurant</option>
+                            <option value="traiteur">Le service traiteur</option>
+                        </select>
+                        <p><label for="message">Contacter le restaurant:</label>
+                            <input type="textarea" id="message" name="message" placeholder="Tapez votre message ici"
+                                height="4rem"></p>
+                        <p><label for="envoi">ciao!</label>
+                            <input type="submit" id="envoi" name="envoi"><em lang="it"></em></p>
+                </form>
+            </article>
+
+            <article class="coordonnees">
+                <figure>
+                    <a href="https://www.google.com/maps/place/L'Alimentari/@48.8565213,2.3562202,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e0286500807:0xd69ae2e4c56a7d33!8m2!3d48.8565178!4d2.3584089"
+                        target="_blank"><img src="assets/img/map.png"></a>
+                    <figcaption>À deux pas de l'Île de la Cité, au cœur du Marais</figcaption>
+                </figure>
+                <div id="coordonnees" class="adresse">
+                    <h2>Où nous trouver:</h2>
+                    <hr>
+                    <div class="grid-address">
+                        <i class="far fa-envelope icon-enveloppe"></i>
+                        <p class="p-enveloppe">6, rue des Écouffes</p>
+                        <p class="p-enveloppe">75004 Paris</p>
+
+                        <i class="fas fa-phone icon-tel"></i>
+                        <p class="p-tel">+33(0)1.42.77.24.59</p>
+                    </div>
+                </div>
+            </article>
+            <article class="social">
+                <h2>Suivez-nous:</h2>
+                <hr>
+                <div class="logo-links">
+                    <a href="https://www.facebook.com/LAlimentari-290417151054338" target="_blank"><img
+                            src="assets/img/facebook-logo-circle.png"></a>
+                    <a href="https://www.tripadvisor.com/Restaurant_Review-g187147-d3153311-Reviews-L_Alimentari-Paris_Ile_de_France.html"
+                        target="_blank"><img src="assets/img/Tripadvisor-logo-2020.png"></a>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <p class="legal"><a href="cgv.html" target="_blank">CGV</a> ・ <a href="" target="_blank">Plan du Site</a> ・
+                <a href="#contact" target="_blank">Contact</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
